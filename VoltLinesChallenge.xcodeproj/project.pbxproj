@@ -8,22 +8,70 @@
 
 /* Begin PBXBuildFile section */
 		3148BE1929FFBE7300FC9C37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3148BE1829FFBE7300FC9C37 /* AppDelegate.swift */; };
-		3148BE1B29FFBE7300FC9C37 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3148BE1A29FFBE7300FC9C37 /* SceneDelegate.swift */; };
 		3148BE1D29FFBE7300FC9C37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3148BE1C29FFBE7300FC9C37 /* ViewController.swift */; };
 		3148BE2029FFBE7300FC9C37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3148BE1E29FFBE7300FC9C37 /* Main.storyboard */; };
 		3148BE2229FFBE7600FC9C37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3148BE2129FFBE7600FC9C37 /* Assets.xcassets */; };
 		3148BE2529FFBE7600FC9C37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3148BE2329FFBE7600FC9C37 /* LaunchScreen.storyboard */; };
+		3148BE3429FFBEFC00FC9C37 /* VoltLinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3148BE3329FFBEFC00FC9C37 /* VoltLinesViewController.swift */; };
+		3148BE3629FFBF2800FC9C37 /* LinesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3148BE3529FFBF2800FC9C37 /* LinesListViewController.swift */; };
+		3148BE3929FFBF5C00FC9C37 /* ListLineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3148BE3829FFBF5C00FC9C37 /* ListLineCell.swift */; };
+		3148BE3B29FFBF9900FC9C37 /* LinesListSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3148BE3A29FFBF9900FC9C37 /* LinesListSection.swift */; };
+		3148BE3D29FFBFA400FC9C37 /* LinesListSectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3148BE3C29FFBFA400FC9C37 /* LinesListSectionType.swift */; };
+		3148BE4029FFC06B00FC9C37 /* LinesListSpacingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3148BE3F29FFC06B00FC9C37 /* LinesListSpacingCell.swift */; };
+		3148BE4429FFC10D00FC9C37 /* LineItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3148BE4329FFC10D00FC9C37 /* LineItemCell.swift */; };
+		3148BE4729FFC36700FC9C37 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3148BE4629FFC36700FC9C37 /* Alamofire */; settings = {ATTRIBUTES = (Required, ); }; };
+		3148BE4A29FFC41900FC9C37 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3148BE4929FFC41900FC9C37 /* SnapKit */; settings = {ATTRIBUTES = (Required, ); }; };
+		3148BE4E29FFC4A600FC9C37 /* LinesListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3148BE4D29FFC4A600FC9C37 /* LinesListPresenter.swift */; };
+		3148BE5129FFC5A700FC9C37 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3148BE5029FFC5A700FC9C37 /* Extensions.swift */; };
+		3148BE5329FFC67100FC9C37 /* VoltLinesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3148BE5229FFC67100FC9C37 /* VoltLinesTableViewCell.swift */; };
+		3148BE5529FFCFC300FC9C37 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3148BE5429FFCFC300FC9C37 /* UIColor.swift */; };
+		3148BE5729FFD33300FC9C37 /* LineItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3148BE5629FFD33300FC9C37 /* LineItemModel.swift */; };
+		3148BE5A29FFD55400FC9C37 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3148BE5929FFD55400FC9C37 /* API.swift */; };
+		3148BE5D29FFD63900FC9C37 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3148BE5C29FFD63900FC9C37 /* Constants.swift */; };
+		3148BE6129FFD71C00FC9C37 /* StationsListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3148BE6029FFD71C00FC9C37 /* StationsListResponse.swift */; };
+		3148BE6329FFE3E200FC9C37 /* BookingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3148BE6229FFE3E200FC9C37 /* BookingResponse.swift */; };
+		3148BE6829FFE66D00FC9C37 /* StationMapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3148BE6729FFE66D00FC9C37 /* StationMapModel.swift */; };
+		3148BE6A29FFF2FC00FC9C37 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3148BE6929FFF2FC00FC9C37 /* MapViewController.swift */; };
+		3148BE6C29FFF36100FC9C37 /* MapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3148BE6B29FFF36100FC9C37 /* MapPresenter.swift */; };
+		31ED4F7D2A0194E5007BE2E6 /* GenericAlertDialogUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ED4F7C2A0194E5007BE2E6 /* GenericAlertDialogUtils.swift */; };
+		31ED4F7F2A01950B007BE2E6 /* GenericAlertDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ED4F7E2A01950B007BE2E6 /* GenericAlertDialogView.swift */; };
+		31ED4F812A0197DD007BE2E6 /* WindowHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ED4F802A0197DD007BE2E6 /* WindowHelper.swift */; };
+		31FFE6692A00560B00A4618C /* ListButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FFE6682A00560B00A4618C /* ListButton.swift */; };
+		31FFE66B2A005E9900A4618C /* MyAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FFE66A2A005E9900A4618C /* MyAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3148BE1529FFBE7300FC9C37 /* VoltLinesChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoltLinesChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3148BE1829FFBE7300FC9C37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3148BE1A29FFBE7300FC9C37 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3148BE1C29FFBE7300FC9C37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3148BE1F29FFBE7300FC9C37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3148BE2129FFBE7600FC9C37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3148BE2429FFBE7600FC9C37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3148BE2629FFBE7600FC9C37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3148BE3329FFBEFC00FC9C37 /* VoltLinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoltLinesViewController.swift; sourceTree = "<group>"; };
+		3148BE3529FFBF2800FC9C37 /* LinesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinesListViewController.swift; sourceTree = "<group>"; };
+		3148BE3829FFBF5C00FC9C37 /* ListLineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLineCell.swift; sourceTree = "<group>"; };
+		3148BE3A29FFBF9900FC9C37 /* LinesListSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinesListSection.swift; sourceTree = "<group>"; };
+		3148BE3C29FFBFA400FC9C37 /* LinesListSectionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinesListSectionType.swift; sourceTree = "<group>"; };
+		3148BE3F29FFC06B00FC9C37 /* LinesListSpacingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinesListSpacingCell.swift; sourceTree = "<group>"; };
+		3148BE4329FFC10D00FC9C37 /* LineItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineItemCell.swift; sourceTree = "<group>"; };
+		3148BE4D29FFC4A600FC9C37 /* LinesListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinesListPresenter.swift; sourceTree = "<group>"; };
+		3148BE5029FFC5A700FC9C37 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3148BE5229FFC67100FC9C37 /* VoltLinesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoltLinesTableViewCell.swift; sourceTree = "<group>"; };
+		3148BE5429FFCFC300FC9C37 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		3148BE5629FFD33300FC9C37 /* LineItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineItemModel.swift; sourceTree = "<group>"; };
+		3148BE5929FFD55400FC9C37 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		3148BE5C29FFD63900FC9C37 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3148BE6029FFD71C00FC9C37 /* StationsListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsListResponse.swift; sourceTree = "<group>"; };
+		3148BE6229FFE3E200FC9C37 /* BookingResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingResponse.swift; sourceTree = "<group>"; };
+		3148BE6729FFE66D00FC9C37 /* StationMapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationMapModel.swift; sourceTree = "<group>"; };
+		3148BE6929FFF2FC00FC9C37 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		3148BE6B29FFF36100FC9C37 /* MapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPresenter.swift; sourceTree = "<group>"; };
+		31ED4F7C2A0194E5007BE2E6 /* GenericAlertDialogUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericAlertDialogUtils.swift; sourceTree = "<group>"; };
+		31ED4F7E2A01950B007BE2E6 /* GenericAlertDialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericAlertDialogView.swift; sourceTree = "<group>"; };
+		31ED4F802A0197DD007BE2E6 /* WindowHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowHelper.swift; sourceTree = "<group>"; };
+		31FFE6682A00560B00A4618C /* ListButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListButton.swift; sourceTree = "<group>"; };
+		31FFE66A2A005E9900A4618C /* MyAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3148BE4729FFC36700FC9C37 /* Alamofire in Frameworks */,
+				3148BE4A29FFC41900FC9C37 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,8 +106,11 @@
 		3148BE1729FFBE7300FC9C37 /* VoltLinesChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				3148BE3229FFBEF000FC9C37 /* Base */,
+				3148BE2C29FFBE7E00FC9C37 /* Scenes */,
+				3148BE5829FFD54700FC9C37 /* Network */,
+				3148BE4F29FFC59600FC9C37 /* Helper */,
 				3148BE1829FFBE7300FC9C37 /* AppDelegate.swift */,
-				3148BE1A29FFBE7300FC9C37 /* SceneDelegate.swift */,
 				3148BE1C29FFBE7300FC9C37 /* ViewController.swift */,
 				3148BE1E29FFBE7300FC9C37 /* Main.storyboard */,
 				3148BE2129FFBE7600FC9C37 /* Assets.xcassets */,
@@ -65,6 +118,202 @@
 				3148BE2629FFBE7600FC9C37 /* Info.plist */,
 			);
 			path = VoltLinesChallenge;
+			sourceTree = "<group>";
+		};
+		3148BE2C29FFBE7E00FC9C37 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				3148BE2D29FFBE8100FC9C37 /* Map */,
+				3148BE2E29FFBEB400FC9C37 /* LinesList */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		3148BE2D29FFBE8100FC9C37 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				31FFE6662A0055FB00A4618C /* View */,
+				3148BE6629FFE65E00FC9C37 /* ViewController */,
+				3148BE6529FFE65B00FC9C37 /* Presenter */,
+				3148BE6429FFE65900FC9C37 /* Model */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		3148BE2E29FFBEB400FC9C37 /* LinesList */ = {
+			isa = PBXGroup;
+			children = (
+				3148BE3729FFBF4F00FC9C37 /* Cell */,
+				3148BE3129FFBED200FC9C37 /* Presenter */,
+				3148BE3029FFBECE00FC9C37 /* Model */,
+				3148BE2F29FFBECA00FC9C37 /* ViewController */,
+			);
+			path = LinesList;
+			sourceTree = "<group>";
+		};
+		3148BE2F29FFBECA00FC9C37 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3148BE3529FFBF2800FC9C37 /* LinesListViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		3148BE3029FFBECE00FC9C37 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3148BE3A29FFBF9900FC9C37 /* LinesListSection.swift */,
+				3148BE3C29FFBFA400FC9C37 /* LinesListSectionType.swift */,
+				3148BE5629FFD33300FC9C37 /* LineItemModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3148BE3129FFBED200FC9C37 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				3148BE4D29FFC4A600FC9C37 /* LinesListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		3148BE3229FFBEF000FC9C37 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3148BE3329FFBEFC00FC9C37 /* VoltLinesViewController.swift */,
+				3148BE5229FFC67100FC9C37 /* VoltLinesTableViewCell.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		3148BE3729FFBF4F00FC9C37 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3148BE4229FFC0CA00FC9C37 /* List */,
+				3148BE4129FFC06F00FC9C37 /* Line */,
+				3148BE3E29FFC05C00FC9C37 /* Spacing */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		3148BE3E29FFC05C00FC9C37 /* Spacing */ = {
+			isa = PBXGroup;
+			children = (
+				3148BE3F29FFC06B00FC9C37 /* LinesListSpacingCell.swift */,
+			);
+			path = Spacing;
+			sourceTree = "<group>";
+		};
+		3148BE4129FFC06F00FC9C37 /* Line */ = {
+			isa = PBXGroup;
+			children = (
+				3148BE3829FFBF5C00FC9C37 /* ListLineCell.swift */,
+			);
+			path = Line;
+			sourceTree = "<group>";
+		};
+		3148BE4229FFC0CA00FC9C37 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				3148BE4329FFC10D00FC9C37 /* LineItemCell.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		3148BE4F29FFC59600FC9C37 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				31ED4F7B2A0194DB007BE2E6 /* AlertDialog */,
+				3148BE5B29FFD62800FC9C37 /* Extensions */,
+				3148BE5C29FFD63900FC9C37 /* Constants.swift */,
+				31ED4F802A0197DD007BE2E6 /* WindowHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		3148BE5829FFD54700FC9C37 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3148BE5F29FFD70F00FC9C37 /* Model */,
+				3148BE5E29FFD70C00FC9C37 /* Manager */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		3148BE5B29FFD62800FC9C37 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3148BE5029FFC5A700FC9C37 /* Extensions.swift */,
+				3148BE5429FFCFC300FC9C37 /* UIColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3148BE5E29FFD70C00FC9C37 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				3148BE5929FFD55400FC9C37 /* API.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		3148BE5F29FFD70F00FC9C37 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3148BE6029FFD71C00FC9C37 /* StationsListResponse.swift */,
+				3148BE6229FFE3E200FC9C37 /* BookingResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3148BE6429FFE65900FC9C37 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3148BE6729FFE66D00FC9C37 /* StationMapModel.swift */,
+				31FFE66A2A005E9900A4618C /* MyAnnotation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3148BE6529FFE65B00FC9C37 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				3148BE6B29FFF36100FC9C37 /* MapPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		3148BE6629FFE65E00FC9C37 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3148BE6929FFF2FC00FC9C37 /* MapViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		31ED4F7B2A0194DB007BE2E6 /* AlertDialog */ = {
+			isa = PBXGroup;
+			children = (
+				31ED4F7C2A0194E5007BE2E6 /* GenericAlertDialogUtils.swift */,
+				31ED4F7E2A01950B007BE2E6 /* GenericAlertDialogView.swift */,
+			);
+			path = AlertDialog;
+			sourceTree = "<group>";
+		};
+		31FFE6662A0055FB00A4618C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				31FFE6672A0055FF00A4618C /* ListButton */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		31FFE6672A0055FF00A4618C /* ListButton */ = {
+			isa = PBXGroup;
+			children = (
+				31FFE6682A00560B00A4618C /* ListButton.swift */,
+			);
+			path = ListButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +332,10 @@
 			dependencies = (
 			);
 			name = VoltLinesChallenge;
+			packageProductDependencies = (
+				3148BE4629FFC36700FC9C37 /* Alamofire */,
+				3148BE4929FFC41900FC9C37 /* SnapKit */,
+			);
 			productName = VoltLinesChallenge;
 			productReference = 3148BE1529FFBE7300FC9C37 /* VoltLinesChallenge.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +364,10 @@
 				Base,
 			);
 			mainGroup = 3148BE0C29FFBE7300FC9C37;
+			packageReferences = (
+				3148BE4529FFC36700FC9C37 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				3148BE4829FFC41800FC9C37 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 3148BE1629FFBE7300FC9C37 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +395,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3148BE4029FFC06B00FC9C37 /* LinesListSpacingCell.swift in Sources */,
+				3148BE5529FFCFC300FC9C37 /* UIColor.swift in Sources */,
 				3148BE1D29FFBE7300FC9C37 /* ViewController.swift in Sources */,
+				3148BE6C29FFF36100FC9C37 /* MapPresenter.swift in Sources */,
+				3148BE3929FFBF5C00FC9C37 /* ListLineCell.swift in Sources */,
 				3148BE1929FFBE7300FC9C37 /* AppDelegate.swift in Sources */,
-				3148BE1B29FFBE7300FC9C37 /* SceneDelegate.swift in Sources */,
+				31ED4F7D2A0194E5007BE2E6 /* GenericAlertDialogUtils.swift in Sources */,
+				3148BE3D29FFBFA400FC9C37 /* LinesListSectionType.swift in Sources */,
+				3148BE4E29FFC4A600FC9C37 /* LinesListPresenter.swift in Sources */,
+				3148BE5D29FFD63900FC9C37 /* Constants.swift in Sources */,
+				3148BE5329FFC67100FC9C37 /* VoltLinesTableViewCell.swift in Sources */,
+				3148BE6129FFD71C00FC9C37 /* StationsListResponse.swift in Sources */,
+				3148BE5129FFC5A700FC9C37 /* Extensions.swift in Sources */,
+				31ED4F812A0197DD007BE2E6 /* WindowHelper.swift in Sources */,
+				31FFE66B2A005E9900A4618C /* MyAnnotation.swift in Sources */,
+				3148BE6329FFE3E200FC9C37 /* BookingResponse.swift in Sources */,
+				31FFE6692A00560B00A4618C /* ListButton.swift in Sources */,
+				3148BE6A29FFF2FC00FC9C37 /* MapViewController.swift in Sources */,
+				3148BE4429FFC10D00FC9C37 /* LineItemCell.swift in Sources */,
+				3148BE3B29FFBF9900FC9C37 /* LinesListSection.swift in Sources */,
+				3148BE3429FFBEFC00FC9C37 /* VoltLinesViewController.swift in Sources */,
+				31ED4F7F2A01950B007BE2E6 /* GenericAlertDialogView.swift in Sources */,
+				3148BE3629FFBF2800FC9C37 /* LinesListViewController.swift in Sources */,
+				3148BE6829FFE66D00FC9C37 /* StationMapModel.swift in Sources */,
+				3148BE5A29FFD55400FC9C37 /* API.swift in Sources */,
+				3148BE5729FFD33300FC9C37 /* LineItemModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +496,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +550,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -290,11 +570,13 @@
 				DEVELOPMENT_TEAM = KXRKGF7878;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VoltLinesChallenge/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to show you in on the map.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,11 +600,13 @@
 				DEVELOPMENT_TEAM = KXRKGF7878;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VoltLinesChallenge/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to show you in on the map.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,6 +642,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3148BE4529FFC36700FC9C37 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		3148BE4829FFC41800FC9C37 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3148BE4629FFC36700FC9C37 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3148BE4529FFC36700FC9C37 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		3148BE4929FFC41900FC9C37 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3148BE4829FFC41800FC9C37 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3148BE0D29FFBE7300FC9C37 /* Project object */;
 }
